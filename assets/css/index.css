@@ -240,6 +240,10 @@ font-size: 1.5em;
 }
 
 @media screen and (max-width:450px){
+    .container{
+        width:95%;
+        padding: 1em;
+    }
     .container2-inner{
         flex-direction: column;
         /* border:none */
@@ -258,7 +262,9 @@ font-size: 1.5em;
     }
     .inner-box-container > div:nth-child(3){
         flex-direction: column;
+        gap:20px;
     }
+
 }
 
 /* hero image end */
